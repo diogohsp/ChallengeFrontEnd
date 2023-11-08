@@ -1,0 +1,132 @@
+/* Menu */
+
+.c-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-menu__itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.c-menu__titulo{
+    color: #262c3d;
+    margin-right: 65vw;
+}
+
+/* retangulos */
+
+.c-menu__retangulo{
+    background-color: #f5f0ef;
+    height: 65px;
+    width: 90vw;
+    border-radius: 20px;
+}
+
+.c-menu__retangulo-itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-menu__retangulo-nome{
+    display: flex;
+    gap: 10px;
+    margin: 0 30px;
+}
+
+.c-menu__retangulo-porcentagem{
+    display: flex;
+    margin: 0 30px;
+}
+
+.c-menu__retangulo-texto{
+    font-size: 19px;
+}
+
+/* cores itens */
+
+.reaction{
+    color: #e2666f;
+}
+
+.memory{
+    color: #d8b561;
+}
+
+.verbal{
+    color: #44977d;
+}
+.visual{
+    color: #2b3686;
+}
+
+.porcentagem{
+    color: #858794;
+}
+
+/* cores backgrounds */
+
+.reactionbg{
+    background-color: rgb(245, 225, 227);
+}
+
+.memorybg{
+   background-color: rgb(250, 242, 224);
+}
+
+.verbalbg{
+   background-color: #dbfaef;
+}
+.visualbg{
+   background-color: rgb(226, 229, 243);
+}
+
+/* botão */
+
+.c-menu__botao{
+    display: flex;
+    background-color: #303b59;
+    width: 80vw;
+    height: 7vh;
+    border-radius: 25px;
+
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-decoration: none;
+    font-size: 42px;
+}
+
+@media (min-width: 1440px) {
+    .c-menu{
+        background-color: white;
+        position: fixed;
+        width: 30vw;
+        height: 50vh;
+        bottom: 20vh;
+        right: 26vw;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .c-menu__retangulo{
+        height: 65px;
+        width: 25vw;
+    }
+    .c-menu__botao{
+        width: 15vw;
+        height: 6vh;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    
+    .c-menu__titulo{
+        color: #262c3d;
+        margin-right: 19vw;
+    }
+}

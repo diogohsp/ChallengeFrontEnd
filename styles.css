@@ -1,0 +1,30 @@
+@import url(styles/results.css);
+@import url(styles/menu.css);
+
+:root{
+    --corContainer: #6642fe;
+    --corCirculo: #4330e4;
+    --corTitulo:  #fffffc;
+    --corTexto: #cbb9ff;
+}
+
+@media (min-width: 1440px) {
+    body{
+        background-color: #e8eefc;
+    }
+}
+
+
+.titulo{
+    color: var(--corTitulo);
+}
+
+.texto{
+    color: var(--corTexto);
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    right: 45%;
+}
